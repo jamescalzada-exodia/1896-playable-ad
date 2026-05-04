@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1080 height=1920 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=720 height=1280 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -52,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/1896 - playable ad.loader.js";
+      var loaderUrl = buildUrl + "/ab69b102dfaa8dfef796cbc196f22544.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/1896 - playable ad.data.br",
-        frameworkUrl: buildUrl + "/1896 - playable ad.framework.js.br",
-        codeUrl: buildUrl + "/1896 - playable ad.wasm.br",
+        dataUrl: buildUrl + "/3d4bc39b3fc8c9a60649fba1eeb1f362.data.unityweb",
+        frameworkUrl: buildUrl + "/2c82ea70b0af04bf6eca90fa285cab37.framework.js.unityweb",
+        codeUrl: buildUrl + "/911b239f16e1f6a86b28df4b7cc3cb0b.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Exodia",
         productName: "Endless1896",
@@ -104,8 +104,8 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "1080px";
-        canvas.style.height = "1920px";
+        canvas.style.width = "720px";
+        canvas.style.height = "1280px";
       }
 
       document.querySelector("#unity-loading-bar").style.display = "block";
